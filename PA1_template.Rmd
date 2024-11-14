@@ -50,7 +50,7 @@ The total number of steps taken per day is `r format(x, scientific = FALSE) `.
 ```{r}
 
 ggplot(step_day, aes(x = total_steps_day)) + 
-  geom_histogram(fill = "steelblue", color = "red") +
+  geom_histogram(fill = "steelblue", color = "maroon") +
   labs(
     title = "Distribution of Total Steps per Day",
     x = "Total Steps per Day",
